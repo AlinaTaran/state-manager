@@ -1,12 +1,14 @@
 // import { JotaiCounter } from "./jotai/JotaiCounter";
-import { ReduxCounter } from "./redux/ReduxCounter";
+import { ContextCounter } from "./context/ContextCounter";
+// import { ReduxCounter } from "./redux/ReduxCounter";
 // import { ZustandCounter } from "./zustand/ZustandCounter";
 
 function App() {
   return (
     <>
       {/* <JotaiCounter /> */}
-      <ReduxCounter />
+      {/* <ReduxCounter /> */}
+      <ContextCounter />
       {/* <ZustandCounter /> */}
     </>
   );
