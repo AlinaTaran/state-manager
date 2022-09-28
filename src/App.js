@@ -1,7 +1,13 @@
-import { ReduxCounter } from "./redux/ReduxCounter";
+import { JotaiCounter } from "./jotai/JotaiCounter";
+// import { ReduxCounter } from "./redux/ReduxCounter";
 
 function App() {
-  return <ReduxCounter></ReduxCounter>;
+  return (
+    <>
+      <JotaiCounter />
+      {/* <ReduxCounter /> */}
+    </>
+  );
 }
 
 export default App;

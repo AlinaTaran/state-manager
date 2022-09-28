@@ -5,10 +5,10 @@ export const Counter = ({ count, onIncrement, onDecrement }) => {
     <div className="counter">
       <span className="count">{count}</span>
       <div className="buttons">
-        <button className="decrement" onClick={onIncrement}>
+        <button className="decrement" onClick={onDecrement}>
           -
         </button>
-        <button className="increment" onClick={onDecrement}>
+        <button className="increment" onClick={onIncrement}>
           +
         </button>
       </div>
